@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-   Hello idegen :) 
-   bjhbjhnbn
-  <p>uj sor</p>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+  <h1>Első blogom!</h1>
+  <h2>Hozzászólás?!</h2>
+  <form>
+    <div>
+      <label>Címe...</label>
+      <div>
+        <input type="text" class="post-title">
+      </div>
+    </div>
+    <div>
+      <label>Szövege... :)</label>
+      <div>
+        <input type="text" class="post-text">
+      </div>
+    </div>
+    <input type="submit" value="Küldöm!" id="send">
+    <h2>Hozzászólások</h2>
+    <h3>Ez az első...</h3>
+    <h4>...amit mondunk</h4>
+
+    <!--
+    <table class="oldPosts">
+      <tbody>
+        <tr>
+          <td class="oldOne">Várjuk a hozzászólásokat! :)</td>
+        </tr>
+      </tbody>
+    </table>
+-->
+
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="blog.js"></script>
 </body>
+
 </html>
