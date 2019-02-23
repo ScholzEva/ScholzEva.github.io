@@ -10,7 +10,7 @@ $('#send').on('click', (event) => {
       <h4>${text}</h4>
   `);
 
-  let dataToSave = { postTitle: title, postText: text };
+  let dataToSave = { title: title, text: text };
   database.ref("post").push(dataToSave);
 
     console.log(title)
