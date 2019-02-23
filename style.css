@@ -14,3 +14,14 @@ h4 {
 color: blue
 
 }
+
+.post-title {
+background-color: lightgoldenrodyellow;
+padding: 20px;
+}
+
+.post-text {
+    background-color: lightgoldenrodyellow;
+    padding: 2px;
+
+}
